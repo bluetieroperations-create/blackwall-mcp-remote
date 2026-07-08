@@ -1,0 +1,12 @@
+{
+  "name": "blackwall-mcp-remote",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Hosted remote MCP (MCP-over-HTTP) for the Black_Wall x402 payment oracle — a zero-install forecast_payment tool an autonomous agent adds by URL. Free under $10; x402 over that.",
+  "scripts": {
+    "test": "node test.mjs",
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  }
+}

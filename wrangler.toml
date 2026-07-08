@@ -1,0 +1,13 @@
+name = "blackwall-mcp"
+main = "src/index.mjs"
+compatibility_date = "2026-05-18"
+account_id = "97e8357708be146fe9e828758546359b"
+
+# Serve at mcp.blackwalltier.com (Cloudflare-managed DNS + cert on the existing zone).
+[[routes]]
+pattern = "mcp.blackwalltier.com"
+custom_domain = true
+
+# The x402 oracle the tool proxies to. Overridable without a code change.
+[vars]
+ORACLE_URL = "https://agent-egress-proxy.onrender.com/v1/forecast-payment"
