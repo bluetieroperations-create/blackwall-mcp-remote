@@ -1,0 +1,13 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.blackwalltier/blackwall-x402-guardrail",
+  "description": "Pre-signature x402 payment verdict (GO/HOLD/STOP) for AI agents, with a verifiable signed receipt.",
+  "version": "0.1.0",
+  "websiteUrl": "https://blackwalltier.com",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.blackwalltier.com"
+    }
+  ]
+}
